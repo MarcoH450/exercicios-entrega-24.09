@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main () {
+
+    float a, b, x;
+    char operador;
+
+    printf("Selecione o primeiro numero: "); scanf("%f", &a);
+    printf("Selecione o operador (+,-,*,/): "); scanf(" %c", &operador);
+    printf("Selecione o segundo numero: "); scanf("%f", &b);
+
+    switch (operador)
+    {
+    case '+':
+        x = a + b;
+        printf("O valor da soma e de = %.2f\n", x);
+        break;
+    
+    case '-':
+        x = a - b;
+        printf("O valor da subtracao e de = %.2f\n", x);
+        break;
+    
+    case '*':
+        x = a * b;
+        printf("O valor da multiplicacao e de = %.2f\n", x);
+        break;
+
+    case '/':
+        if (b == 0) {
+            printf("Nao ha divisao por zero\n");
+            break;
+        } else {
+            x = a / b;
+            printf("O valor da divisao e de = %.2f\n", x);
+            break;
+        }
+    
+    default:
+        printf("Nenhuma operacao valida");
+        break;
+    }
+
+    return 0;
+}

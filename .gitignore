@@ -1,0 +1,7 @@
+.vscode/
+*.exe
+*.out
+a.out
+
+# Executáveis sem extensão gerados nos diretórios dos exercícios
+exercicio-*/exercicio-[0-9][0-9]

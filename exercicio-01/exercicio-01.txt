@@ -1,0 +1,27 @@
+ALGORITMO LAVAR_CARRO
+
+INICIO
+    CHAMAR VALIDAR
+    CHAMAR LIMPAR_CARRO
+    CHAMAR FINALIZAR_CARRO
+FIM
+
+FUNÇÃO VALIDAR
+    INICIO
+        verificarCarro
+        verificarAgua
+        verificarMateriais
+    FIM
+
+FUNCAO LIMPAR_CARRO
+    INICIO
+        molharCarro
+        esfregarCarro
+        enxaguarCarro
+    FIM
+
+FUNCAO FINALIZAR_CARRO
+    INICIO
+        secarCarro
+        polirCarro
+    FIM
