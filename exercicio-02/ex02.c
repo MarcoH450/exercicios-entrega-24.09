@@ -2,7 +2,7 @@
  * Aluno: Marcos
  * Exercício: 02
  * Descrição: Le um numero N e exibe os primeiros N termos de uma sequencia em que cada termo e a soma dos dois anteriores.
- * Data: 19/09/2026
+ * Data: 20/09/2026
  */
 
 #include <stdio.h>
