@@ -1,7 +1,7 @@
 /*
  * Aluno: Marcos
  * Exercício: 04
- * Descrição: Resolução do exercício 04 da Lista de Exercícios 01.
+ * Descrição: Algoritmo para simulacao da fila de um banco.
  * Data: 19/09/2026
  */
 
@@ -11,7 +11,7 @@ int main () {
 
     int fila;
 
-    printf("Quantas pessoas estão na fila?\n"); scanf("%d", &fila);
+    printf("Informe a quantidade de pessoas na fila: "); scanf("%d", &fila);
 
     for (int i = 1; i <= fila; i++) {
 
