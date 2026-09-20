@@ -1,0 +1,30 @@
+
+ * Aluno: Marcos
+ * Exercício: 03
+ * Descrição: Pseudocodigo para organizacao de uma biblioteca.
+ * Data: 20/09/2026
+
+
+MAIN BIBLIOTECA
+    enquanto houver livros:
+        CHAMAR REGISTRAR LIVRO
+        CHAMAR ORGANIZAR LIVRO
+    fim enquanto
+FIM MAIN    
+
+
+FUNCAO REGISTRAR LIVRO
+    coletar novo livro
+    registrar
+        nome
+        autor
+        tema
+        identificacao
+FIM FUNCAO
+
+FUNCAO ORGANIZAR LIVRO
+    localizar prateleira
+        enquanto tema do livro for diferente do tema da prateleira
+            localizar nova prateleira
+        fim enquanto
+FIM FUNCAO
