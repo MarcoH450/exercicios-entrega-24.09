@@ -1,7 +1,7 @@
 /*
  * Aluno: Marcos
  * Exercício: 01
- * Descrição: Resolução do exercício 01 da Lista de Exercícios 01.
+ * Descrição: Pseudo codigo do algoritmo "lavar um carro".
  * Data: 19/09/2026
  */
 
