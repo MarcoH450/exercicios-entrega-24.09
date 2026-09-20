@@ -1,3 +1,10 @@
+/*
+ * Aluno: Marcos
+ * Exercício: 08
+ * Descrição: Resolução do exercício 08 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

@@ -1,3 +1,14 @@
+/*
+ * Aluno: Marcos
+ * Exercício: 01
+ * Descrição: Resolução do exercício 01 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+ */
+
+/*
+ * Resposta original preservada do exercício em formato textual.
+ */
+/*
 ALGORITMO LAVAR_CARRO
 
 INICIO
@@ -25,3 +36,8 @@ FUNCAO FINALIZAR_CARRO
         secarCarro
         polirCarro
     FIM
+*/
+
+int main(void) {
+    return 0;
+}

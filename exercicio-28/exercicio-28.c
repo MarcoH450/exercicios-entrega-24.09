@@ -1,3 +1,10 @@
+/*
+ * Aluno: Marcos
+ * Exercício: 28
+ * Descrição: Resolução do exercício 28 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+ */
+
 #include <stdio.h>
 #include <math.h>
 

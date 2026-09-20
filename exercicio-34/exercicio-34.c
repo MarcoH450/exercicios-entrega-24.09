@@ -1,3 +1,10 @@
+/*
+ * Aluno: Marcos
+ * Exercício: 34
+ * Descrição: Resolução do exercício 34 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+ */
+
 #include <stdio.h>
 #define PI 3.14159
 

@@ -1,3 +1,10 @@
+/*
+ * Aluno: Marcos
+ * Exercício: 55
+ * Descrição: Resolução do exercício 55 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+ */
+
 #include <stdio.h>
 
 int main () {

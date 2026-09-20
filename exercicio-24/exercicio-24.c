@@ -1,3 +1,10 @@
+/*
+ * Aluno: Marcos
+ * Exercício: 24
+ * Descrição: Resolução do exercício 24 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+ */
+
 //CODIGO PROPOSTO
 
 //#include <stdio.h>

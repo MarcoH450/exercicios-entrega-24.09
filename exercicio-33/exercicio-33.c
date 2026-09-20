@@ -1,3 +1,10 @@
+/*
+ * Aluno: Marcos
+ * Exercício: 33
+ * Descrição: Resolução do exercício 33 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+ */
+
 #include <stdio.h>
 
 int main () {
