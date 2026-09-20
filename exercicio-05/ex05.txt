@@ -1,0 +1,30 @@
+
+ * Aluno: Marcos
+ * Exercício: 05
+ * Descrição: Resolução do exercício 05 da Lista de Exercícios 01.
+ * Data: 19/09/2026
+
+
+DECOMPOSICAO
+    coletar generos preferidos
+    coletar avaliacao por curtido ou nao curtido
+    analisar leitura de cliques em catalogos
+    verificar classificacao indicativa
+
+PADROES
+    filmes curtidos que contenham atores e generos em comum
+    repeticao de generos, atores e temas em pesquisas
+    pesquisas em comum na plataforma e com recorrencia pelo usuario e pessoas com padroes de gosto semelhantes
+
+ABSTRACOES
+    curtidos e nao curtidos
+    generos preferidos
+    atores preferidos
+
+ALGORITMO
+    verificar idade do assinante
+    verificar preferencias do assinante
+    filtrar mais assistidos da plataforma
+    excluir filmes nao curtidos
+    filtrar atores e generos semelhantes aos filmes curtidos
+    recomendar filmes com base nos dados coletados
