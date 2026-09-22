@@ -6,33 +6,23 @@
  */
 
 /*
- * Resposta original preservada do exercício em formato textual.
+ * O codigo apresentado no enunciado esta sintaticamente correto: os
+ * parenteses, as chaves e o ponto e virgula estao nos lugares adequados.
+ * O erro existente e semantico, pois uma divisao inteira por zero nao tem
+ * resultado definido. A verificacao abaixo impede que a divisao aconteca.
  */
-/*
-CODIGO MENCIONADO
 
 #include <stdio.h>
-int main()
-{
-printf("O resultado é %d", 10 / 0);
-return 0;
-}
-
-CODIGO CORRIGIDO
-
-#include <stdio.h>
-int main()
-{
-printf("O resultado é %d", 10 / 0);
-return 0;
-}
-
-
-RESOLUÇÃO:
-não é possivel dividir por zero
-
-*/
 
 int main(void) {
+    int dividendo = 10;
+    int divisor = 0;
+
+    if (divisor == 0) {
+        printf("Erro: nao e possivel dividir por zero.\n");
+    } else {
+        printf("O resultado e %d\n", dividendo / divisor);
+    }
+
     return 0;
 }

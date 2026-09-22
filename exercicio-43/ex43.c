@@ -44,7 +44,7 @@ int main () {
         }
     
     default:
-        printf("Nenhuma operacao valida");
+        printf("Nenhuma operacao valida.\n");
         break;
     }
 

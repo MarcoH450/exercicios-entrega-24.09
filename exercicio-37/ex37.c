@@ -16,13 +16,18 @@ int main () {
     printf("Digite o valor de B: "); scanf("%lf", &b);
     printf("Digite o valor de C: "); scanf("%lf", &c);
 
-    delta = pow(b, 2) - (4.0 * a * c);
-    
-    if (delta < 0) {
-        printf("A equação não tem raiz real");
+    if (a == 0.0) {
+        printf("O valor de A nao pode ser zero.\n");
+        return 1;
+    }
+
+    delta = b * b - 4.0 * a * c;
+
+    if (delta < 0.0) {
+        printf("A expressao nao possui resultado real.\n");
     } else {
         x = (-b + sqrt(delta)) / (2.0 * a);
-        printf("O resultado da função sera de: %.2lf\n", x);
+        printf("O valor de x e: %.2f\n", x);
     }
 
     return 0;

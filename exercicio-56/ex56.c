@@ -10,20 +10,17 @@
 
 int main () {
 
-    char usuario[] = "admin";
-    char senha[] = "1234";
-    char codigo1[20], codigo2[20];
+    char usuario[20];
+    char senha[20];
 
-    printf("Usuario: "); scanf("%s", &codigo1);
-    printf("Senha: "); scanf("%s", &codigo2);
+    printf("Usuario: "); scanf("%s", usuario);
+    printf("Senha: "); scanf("%s", senha);
 
-    while (strcmp(codigo1, usuario) != 0 || strcmp(codigo2, senha) != 0) {
-        printf("\nACESSO NEGADO. TENTE NOVAMENTE.\n");
-        printf("Usuario: "); scanf("%s", &codigo1);
-        printf("Senha: "); scanf("%s", &codigo2);
+    if (strcmp(usuario, "admin") == 0 && strcmp(senha, "1234") == 0) {
+        printf("ACESSO AUTORIZADO. BEM VINDO!\n");
+    } else {
+        printf("ACESSO NEGADO.\n");
     }
-    
-    printf("ACESSO AUTORIZADO. BEM VINDO!\n");
-    
+
     return 0;
 }

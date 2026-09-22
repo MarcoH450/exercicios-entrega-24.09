@@ -1,0 +1,26 @@
+
+ * Aluno: Marcos
+ * Exercício: 11
+ * Descrição: Pseudocodigo para converter um valor em reais para dolares.
+ * Data: 19/09/2026
+
+
+ALGORITMO CONVERTER_REAIS_PARA_DOLARES
+
+VAR
+    valorReais, taxaCambio, valorDolares: REAL
+
+INICIO
+    ESCREVA "Digite o valor em reais: "
+    LEIA valorReais
+
+    ESCREVA "Digite a taxa de cambio (quantos reais valem um dolar): "
+    LEIA taxaCambio
+
+    SE valorReais < 0 OU taxaCambio <= 0 ENTAO
+        ESCREVA "Valor ou taxa de cambio invalida."
+    SENAO
+        valorDolares <- valorReais / taxaCambio
+        ESCREVA "Valor em dolares: US$ ", valorDolares
+    FIM SE
+FIM

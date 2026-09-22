@@ -8,19 +8,17 @@
 #include <stdio.h>
 #include <math.h>
 
-
 int main () {
 
-    double raio, area, perimetro;
-    double pi = M_PI;
+    float raio, area, perimetro;
 
-    printf("Informe a raio do circulo: "); scanf("%lf", &raio);
+    printf("Informe o raio do circulo: "); scanf("%f", &raio);
 
-    area = (M_PI * (raio * raio));
-    perimetro = (2 * M_PI * raio);
+    area = M_PI * raio * raio;
+    perimetro = 2 * M_PI * raio;
 
-    printf("Area do circulo = %.2lf\n", area);
-    printf("Perimetro do circulo = %.2lf\n", perimetro);
+    printf("Area do circulo = %.2f\n", area);
+    printf("Perimetro do circulo = %.2f\n", perimetro);
 
     return 0;
 }

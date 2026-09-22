@@ -1,7 +1,7 @@
 /*
  * Aluno: Marcos
  * Exercício: 08
- * Descrição: Resolução do exercício 08 da Lista de Exercícios 01.
+ * Descrição: Algoritmo numero secreto de 1 a 100.
  * Data: 19/09/2026
  */
 
@@ -19,23 +19,17 @@ int main () {
 
     sorteio = rand() % 100 +1;
 
-    printf("De seu palpite de um numero de 0 a 100: "); scanf("%d", &palpite);
+    printf("De seu palpite de um numero de 1 a 100: "); scanf("%d", &palpite);
 
     while (palpite != sorteio) {
-        
-        if (palpite == sorteio) {
-            printf("Parabens, voce acertou!");
-            break;
+        if (palpite > sorteio) {
+            printf("\nO numero e menor.");
         } else {
-            if (palpite > sorteio) {
-                printf("\nO numero e menor.");
-            } else {
-                printf("\nO numero e maio.");
-            }
+            printf("\nO numero e maior.");
+        }
         tentativas++;
         printf("\nTente novamente: "); scanf("%d", &palpite);
         }
-    }
     printf("\nVOCE ACERTOU!\n");
     printf("Numero de tentativas: %d\n", tentativas);
     return 0;

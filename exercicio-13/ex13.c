@@ -9,16 +9,16 @@
 
 int main () {
 
-    int numero1, numero2, numero3, maior, menor;
+    int numero1, numero2, numero3;
 
     printf("Insira 3 numeros inteiros:\n"); scanf("%d %d %d", &numero1, &numero2, &numero3);
 
-    if (numero1 > numero2 && numero2 > numero3) {
-        printf("A ordem esta em decrescente.");
-    } else if (numero3 > numero2 && numero2 > numero1) {
-        printf("A ordem esta em crescente.");
+    if (numero1 < numero2 && numero2 < numero3) {
+        printf("Os numeros estao em ordem crescente.\n");
+    } else if (numero1 > numero2 && numero2 > numero3) {
+        printf("Os numeros estao em ordem decrescente.\n");
     } else {
-        printf("Não a ordem na sequencia");
+        printf("Os numeros nao estao em ordem crescente nem decrescente.\n");
     }
 
     return 0;

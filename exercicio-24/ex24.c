@@ -30,11 +30,11 @@ int main () {
     if (numero % 2 == 0) {
 
         //saida: se o valor for igual a zero, retorna o resultado como um numero par
-        printf("O valor %d é par.", numero);
+        printf("O valor %d é par.\n", numero);
     } else {
 
         //saida: se o valor for diferente de zero (conter resto na divisão), retorna o resultado como um numero impar
-        printf("O valor %d é impar.", numero);
+        printf("O valor %d é impar.\n", numero);
     }
     return 0;
 }

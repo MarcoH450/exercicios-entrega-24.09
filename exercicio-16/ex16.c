@@ -9,20 +9,16 @@
 
 int main () {
 
-    float nota1, nota2;
+    float nota;
     int frequencia;
-    float media = 0;
 
-    printf("Insira a primeira nota do aluno: "); scanf("%f", &nota1);
-    printf("Insira a segunda nota do aluno: "); scanf("%f", &nota2);
-    printf("insira a frequencia do aluno (%): "); scanf("%d", &frequencia);
+    printf("Insira a nota do aluno: "); scanf("%f", &nota);
+    printf("Insira a frequencia do aluno (%%): "); scanf("%d", &frequencia);
 
-    media = (nota1 + nota2) / 2;
-
-    if (media >= 7.0 && frequencia >= 75) {
-        printf("A media do aluno e de: %.2f - Frequencia de %d\%\nAPROVADO\n", media, frequencia);
+    if (nota >= 7.0 && frequencia >= 75) {
+        printf("Nota: %.2f - Frequencia: %d%%\nAPROVADO\n", nota, frequencia);
     } else {
-        printf("A media do aluno e de: %.2f - Frequencia de %d\%\nREPROVADO\n", media, frequencia);
+        printf("Nota: %.2f - Frequencia: %d%%\nREPROVADO\n", nota, frequencia);
     }
 
     return 0;

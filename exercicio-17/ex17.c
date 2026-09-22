@@ -6,18 +6,16 @@
  */
 
 #include <stdio.h>
-#include <math.h>
 
 int main () {
 
-    #define PERCENTUAL 10
     float salarioBruto, salarioLiquido;
 
-    printf("Insura o salario bruto do funcionario: "); scanf("%f", &salarioBruto);
+    printf("Insira o salario bruto do funcionario: "); scanf("%f", &salarioBruto);
 
-    salarioLiquido = (salarioBruto) - (salarioBruto * PERCENTUAL / 100);
+    salarioLiquido = salarioBruto - (salarioBruto * 0.10);
 
-    printf("O salario líquido do funcionario com base no INSS sera de R$ %.2f", salarioLiquido);
+    printf("O salario liquido do funcionario sera de R$ %.2f\n", salarioLiquido);
 
     return 0;
 }

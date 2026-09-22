@@ -5,17 +5,15 @@
  * Data: 19/09/2026
  */
 
-/*
- * Resposta original preservada do exercício em formato textual.
- */
-/*
-a == 5
-b == 9
-c == -4
-
-
-*/
+#include <stdio.h>
 
 int main(void) {
+    int a = 5;
+    int b = 10;
+    int c = a++ + --b;
+
+    /* --b produz 9; a++ usa 5 na soma e depois altera a para 6. */
+    printf("a = %d, b = %d, c = %d\n", a, b, c);
+
     return 0;
 }
